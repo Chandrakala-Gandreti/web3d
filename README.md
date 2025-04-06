@@ -24,7 +24,7 @@ AR.js / WebXR (for Augmented Reality)
 
 GSAP / ScrollMagic / Locomotive Scroll (for scroll animations)
 
-Blender (for 3D modeling, optional)
+Sketchfab (for 3D modeling, optional)
 
 📦 Use Cases
 
