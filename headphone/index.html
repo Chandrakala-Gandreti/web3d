@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Sony Headphones, the premium audio experience.">
+  <meta name="keywords" content="Sony Headphones, Audio, Noise Cancelling, Premium Sound">
+  <meta name="author" content="xAI">
+  <title>Sony Headphones</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loading Overlay -->
+  <div id="loading-overlay">
+    <canvas class="loading-canvas"></canvas>
+    <div class="loading-text">Loading<span class="dots"></span></div>
+  </div>
+
+  <!-- WebGL Canvas -->
+  <canvas class="webgl"></canvas>
+
+  <!-- Main Content -->
+  <main role="main">
+    <!-- Intro Section -->
+    <section class="container intro-container" aria-label="Introduction">
+      <div class="content">
+        <h1>Sony Headphones</h1>
+        <p class="subtitle">Premium Audio Experience</p>
+        <p>Immerse yourself in sound with Sony's cutting-edge headphone technology.</p>
+      </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="container overview-container" aria-label="Overview">
+      <div class="content">
+        <h2>Overview</h2>
+        <p>Featuring advanced noise-cancelling and high-resolution audio, Sony headphones redefine listening.</p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container features-container" aria-label="Key Features">
+      <div class="content">
+        <h2>Key Features</h2>
+        <ul>
+          <li><span>Active Noise Cancelling</span> - Block out the world</li>
+          <li><span>40mm Drivers</span> - Crystal-clear sound quality</li>
+          <li><span>Bluetooth 5.0</span> - Seamless wireless connectivity</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Specs Section -->
+    <section class="container specs-container" aria-label="Technical Specifications">
+      <div class="content">
+        <h2>Technical Specifications</h2>
+        <ul>
+          <li><span>Driver Unit:</span> 40mm</li>
+          <li><span>Battery Life:</span> Up to 30 Hours</li>
+          <li><span>Weight:</span> 250g</li>
+          <li><span>Price:</span> Starting at $299</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container contact-container" aria-label="Explore More">
+      <div class="content">
+        <h2>Explore More</h2>
+        <ul>
+          <li><a href="https://www.sony.com/electronics/headphones" target="_blank" rel="noopener noreferrer">Official Website</a></li>
+          <li><a href="https://www.sony.com/support" target="_blank" rel="noopener noreferrer">Support & Inquiries</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Import Map for Dependencies -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.161.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.161.0/examples/jsm/",
+        "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.2/+esm",
+        "gsap/ScrollTrigger": "https://cdn.jsdelivr.net/npm/gsap@3.12.2/ScrollTrigger/+esm"
+      }
+    }
+  </script>
+  <script src="main.js" type="module"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'92bfc557584bb059',t:'MTc0MzkyNjYyOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
